@@ -74,7 +74,9 @@ nav a {
 
     text-decoration: none;
 
-    margin-left: 20px;
+    margin: 0 10px;
+
+    display: inline-block;
 
     transition: .3s;
 
