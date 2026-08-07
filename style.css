@@ -1,1 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    background: #050816;
+    color: white;
+}
+
+header {
+    background: #0b1026;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #00c8ff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    color: #00c8ff;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)),
+    url("https://images.unsplash.com/photo-1446776877081-d282a0f896e2");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #00c8ff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.tarjeta {
+    background: #101733;
+    padding: 25px;
+    border-radius: 15px;
+    width: 280px;
+}
+
+footer {
+    background: #0b1026;
+    text-align: center;
+    padding: 20px;
+}
