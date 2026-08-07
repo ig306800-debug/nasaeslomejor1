@@ -116,3 +116,12 @@ footer {
     text-align: center;
     padding: 20px;
 }
+.logo {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #00c8ff;
+}
