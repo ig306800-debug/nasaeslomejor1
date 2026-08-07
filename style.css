@@ -5,65 +5,104 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
 
+
 body {
-    background: #050816;
+
+    background: #020617;
+
     color: white;
-    line-height: 1.6;
+
+    line-height: 1.7;
+
 }
 
 
-/* LOGO Y MENU */
+
+
+
+/* HEADER */
+
 
 header {
-    background: rgba(11,16,38,0.95);
+
+    background: rgba(3, 7, 25, 0.95);
+
     padding: 20px 40px;
+
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
+
     position: sticky;
+
     top: 0;
+
     z-index: 100;
+
 }
+
 
 
 .logo {
-    font-size: 32px;
+
+    font-size: 34px;
+
     font-weight: bold;
+
 }
 
 
 .logo span {
+
     color: #00c8ff;
+
 }
+
+
 
 
 nav a {
+
     color: white;
+
     text-decoration: none;
+
     margin-left: 20px;
-    transition: 0.3s;
+
+    transition: .3s;
+
 }
+
 
 
 nav a:hover {
+
     color: #00c8ff;
+
 }
 
 
 
-/* PORTADA */
+
+
+/* HERO ESPACIAL */
+
 
 .hero {
 
     min-height: 90vh;
 
     display: flex;
-    flex-direction: column;
+
     justify-content: center;
+
     align-items: center;
 
     text-align: center;
@@ -74,8 +113,8 @@ nav a:hover {
     background:
 
     linear-gradient(
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.85)
+    rgba(0,0,0,.45),
+    rgba(0,0,0,.85)
     ),
 
     url("https://images.unsplash.com/photo-1446776877081-d282a0f896e2");
@@ -89,207 +128,25 @@ nav a:hover {
 
 
 
+.hero-text {
+
+    max-width: 900px;
+
+}
+
+
+
 .hero h2 {
 
-    font-size: 50px;
+    font-size: 55px;
 
     margin-bottom: 20px;
 
 }
-
 
 
 .hero p {
 
-    max-width: 800px;
-
-    font-size: 20px;
-
-}
-
-
-
-
-button {
-
-    margin-top: 30px;
-
-    padding: 15px 35px;
-
-    border: none;
-
-    border-radius: 30px;
-
-    background: #00c8ff;
-
-    font-size: 16px;
-
-    font-weight: bold;
-
-    cursor: pointer;
-
-}
-
-
-
-
-button:hover {
-
-    transform: scale(1.05);
-
-}
-
-
-
-
-
-/* SECCIONES */
-
-.contenido {
-
-    padding: 70px 30px;
-
-    max-width: 1200px;
-
-    margin: auto;
-
-    text-align: center;
-
-}
-
-
-
-.contenido h2 {
-
-    font-size: 35px;
-
-    margin-bottom: 20px;
-
-    color: #00c8ff;
-
-}
-
-
-
-.contenido p {
-
-    font-size: 18px;
-
-}
-
-
-
-
-
-/* TARJETAS */
-
-
-.tarjetas {
-
-    display: flex;
-
-    justify-content: center;
-
-    flex-wrap: wrap;
-
-    gap: 25px;
-
-    margin-top: 40px;
-
-}
-
-
-
-.tarjeta {
-
-    background: #101733;
-
-    padding: 30px;
-
-    width: 300px;
-
-    border-radius: 20px;
-
-    transition: 0.3s;
-
-    border: 1px solid #18234d;
-
-}
-
-
-
-.tarjeta:hover {
-
-    transform: translateY(-10px);
-
-    box-shadow: 0 0 25px #00c8ff55;
-
-}
-
-
-
-.tarjeta h3 {
-
-    color: #00c8ff;
-
-    margin-bottom: 15px;
-
-}
-
-
-
-
-
-/* FOOTER */
-
-
-footer {
-
-    background: #0b1026;
-
-    text-align: center;
-
-    padding: 40px;
-
-    margin-top: 50px;
-
-}
-
-
-
-
-/* CELULARES */
-
-
-@media(max-width:700px){
-
-
-header {
-
-    flex-direction: column;
-
-}
-
-
-nav {
-
-    margin-top: 20px;
-
-}
-
-
-.hero h2 {
-
-    font-size: 35px;
-
-}
-
-
-nav a {
-
-    margin: 8px;
-
-}
-
+    font-size: 21px;
 
 }
